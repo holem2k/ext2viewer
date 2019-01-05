@@ -1,0 +1,628 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#define APSTUDIO_HIDDEN_SYMBOLS
+#include "windows.h"
+#undef APSTUDIO_HIDDEN_SYMBOLS
+#include "resource.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Russian resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_RUS)
+#ifdef _WIN32
+LANGUAGE LANG_RUSSIAN, SUBLANG_DEFAULT
+#pragma code_page(1251)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "#include ""windows.h""\r\n"
+    "#undef APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "#include ""resource.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_DIALOG2, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 125
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 141
+    END
+
+    IDD_DIALOG_MI_PROPS_PAGE1, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 180
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 139
+    END
+
+    IDD_DIALOG_MI_PROPS, DIALOG
+    BEGIN
+        LEFTMARGIN, 3
+        RIGHTMARGIN, 172
+        TOPMARGIN, 4
+        BOTTOMMARGIN, 182
+    END
+
+    IDD_DIALOG_MI_PROPS_PAGE2, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 184
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 159
+    END
+
+    IDD_DIALOG_FILE_PROPS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 172
+        TOPMARGIN, 3
+        BOTTOMMARGIN, 179
+    END
+
+    IDD_DIALOG_FILES_PROPS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 170
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 179
+    END
+
+    IDD_DIALOG_WARNING, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 190
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 59
+    END
+
+    IDD_DIALOG_COPYFILE, DIALOG
+    BEGIN
+        LEFTMARGIN, 5
+        RIGHTMARGIN, 181
+        TOPMARGIN, 5
+        BOTTOMMARGIN, 90
+    END
+
+    IDD_DIALOG_OVERWRITE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 277
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 64
+    END
+
+    IDD_ABOUT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 165
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 91
+    END
+
+    IDD_DIALOG_SHOW, DIALOG
+    BEGIN
+        LEFTMARGIN, 3
+        RIGHTMARGIN, 198
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 121
+    END
+
+    IDD_DIALOG_FIND, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 193
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 71
+    END
+
+    IDD_DIALOG_READFILE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 179
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 51
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_INTERF              ICON    DISCARDABLE     "res\\interf.ICO"
+IDI_OFOLDER             ICON    DISCARDABLE     "res\\ofolder.ico"
+IDI_HDD                 ICON    DISCARDABLE     "res\\hdd.ico"
+IDI_FOLDER              ICON    DISCARDABLE     "res\\folder.ico"
+IDI_FD3_5               ICON    DISCARDABLE     "res\\fd3_5.ico"
+IDI_FD5_25              ICON    DISCARDABLE     "res\\fd5_25.ico"
+IDI_FD3_5_16            ICON    DISCARDABLE     "res\\fd3_5_16.ico"
+IDI_HDD_16              ICON    DISCARDABLE     "res\\hdd_16.ico"
+IDI_FOLDER_16           ICON    DISCARDABLE     "res\\folder_16.ico"
+IDI_OFOLDER_16          ICON    DISCARDABLE     "res\\ofolder_16.ico"
+IDI_FD5_25_16           ICON    DISCARDABLE     "res\\fd5_25_16.ico"
+IDI_COMPUTER_16         ICON    DISCARDABLE     "res\\computer_16.ico"
+IDI_REGFILE             ICON    DISCARDABLE     "res\\regfile.ico"
+IDI_REGFILE_16          ICON    DISCARDABLE     "res\\regfile_16.ico"
+IDI_SMALL               ICON    DISCARDABLE     "res\\interf.ICO"
+IDI_CHARFILE_16         ICON    DISCARDABLE     "res\\charfile_16.ico"
+IDI_BLOCKFILE_16        ICON    DISCARDABLE     "res\\blofile_16.ico"
+IDI_FIFOFILE_16         ICON    DISCARDABLE     "res\\fifofile_16.ico"
+IDI_SOCKFILE_16         ICON    DISCARDABLE     "res\\sockfile_16.ico"
+IDI_LNKFILE_16          ICON    DISCARDABLE     "res\\lnkfile_16.ico"
+IDI_BLOCKFILE           ICON    DISCARDABLE     "res\\blofile.ico"
+IDI_CHARFILE            ICON    DISCARDABLE     "res\\charfile.ico"
+IDI_FIFOFILE            ICON    DISCARDABLE     "res\\fifofile.ico"
+IDI_LNKFILE             ICON    DISCARDABLE     "res\\lnkfile.ico"
+IDI_SOCKFILE            ICON    DISCARDABLE     "res\\sockfile.ico"
+IDI_FILES               ICON    DISCARDABLE     "res\\files.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DIALOG2 DIALOG DISCARDABLE  0, 0, 132, 148
+STYLE DS_MODALFRAME | DS_3DLOOK | DS_CENTER | WS_VISIBLE | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "Настройки"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,20,130,50,14
+    PUSHBUTTON      "Отмена",IDCANCEL,78,130,50,14
+    GROUPBOX        "Показывать",IDC_STATIC,4,3,124,122
+    CONTROL         "Имя",IDC_CHECK_NAME,"Button",BS_AUTOCHECKBOX | 
+                    WS_DISABLED | WS_GROUP | WS_TABSTOP,10,14,31,10
+    CONTROL         "Тип файла",IDC_CHECK_TYPE,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,10,26,52,10
+    CONTROL         "Размер",IDC_CHECK_SIZE,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,10,38,42,10
+    CONTROL         "Права доступа",IDC_CHECK_RIGHTS,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,10,50,66,10
+    CONTROL         "Время создания",IDC_CHECK_CTIME,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,10,62,72,10
+    CONTROL         "Время модификации",IDC_CHECK_MTIME,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,10,74,87,10
+    CONTROL         "Время доступа",IDC_CHECK_ATIME,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,10,86,67,10
+    CONTROL         "Пользователь",IDC_CHECK_USER,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,10,98,65,10
+    CONTROL         "Группа",IDC_CHECK_GROUP,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,10,110,39,10
+END
+
+IDD_DIALOG_MI_PROPS_PAGE1 DIALOG DISCARDABLE  0, 0, 187, 146
+STYLE DS_3DLOOK | DS_CONTROL | WS_CHILD
+FONT 8, "MS Sans Serif"
+BEGIN
+    RTEXT           "Число  дескрипторов:",IDC_STATIC,7,17,95,8
+    RTEXT           "Число блоков:",IDC_STATIC,7,49,95,8
+    RTEXT           "Зарезервированно блоков:",IDC_STATIC,8,69,94,8
+    RTEXT           "Дескрипторов в группе:",IDC_STATIC,7,37,95,8
+    RTEXT           "Свободно блоков:",IDC_STATIC,7,59,95,8
+    RTEXT           "Свободно дескрипторов:",IDC_STATIC,7,27,95,8
+    RTEXT           "Размер блока:",IDC_STATIC,7,79,95,8
+    RTEXT           "Время монтирования:",IDC_STATIC,7,91,95,8
+    RTEXT           "Число монтирований:",IDC_STATIC,7,101,95,8
+    RTEXT           "Макс. число монтирований:",IDC_STATIC,7,111,95,8
+    LTEXT           "",IDC_STATIC_INODES_COUNT,106,17,74,8
+    LTEXT           "",IDC_STATIC_FREE_INODES_COUNT,106,27,74,8
+    LTEXT           "",IDC_STATIC_INODES_PER_GROUP,106,37,74,8
+    LTEXT           "",IDC_STATIC_BLOCK_COUNT,106,49,74,8
+    LTEXT           "",IDC_STATIC_FREE_BLOCK_COUNT,106,59,74,8
+    LTEXT           "",IDC_STATIC_R_BLOCK_COUNT,106,69,74,8
+    LTEXT           "",IDC_STATIC_BLOCK_SIZE,106,79,74,8
+    LTEXT           "",IDC_STATIC_MTIME,106,91,74,8
+    LTEXT           "",IDC_STATIC_MNT_COUNT,106,101,74,8
+    LTEXT           "",IDC_STATIC_MAX_MNT_COUNT,106,111,74,8
+    RTEXT           "Состояние:",IDC_STATIC,7,123,95,8
+    LTEXT           "",IDC_STATIC_STATE,106,123,74,8
+    RTEXT           "Объем  диска:",IDC_STATIC,7,7,95,8
+    LTEXT           "",IDC_STATIC_VOLUME,106,7,74,8
+END
+
+IDD_DIALOG_MI_PROPS DIALOG DISCARDABLE  0, 0, 176, 186
+STYLE DS_MODALFRAME | DS_CENTER | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "Свойства"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,122,168,50,14
+    CONTROL         "Tab2",IDC_TAB1,"SysTabControl32",TCS_HOTTRACK | 
+                    WS_GROUP | WS_TABSTOP,3,4,169,159
+END
+
+IDD_DIALOG_MI_PROPS_PAGE2 DIALOG DISCARDABLE  0, 0, 191, 166
+STYLE DS_CONTROL | WS_CHILD
+FONT 8, "MS Sans Serif"
+BEGIN
+    RTEXT           "Имя:",IDC_STATIC,7,7,74,8
+    RTEXT           "Тип:",IDC_STATIC,7,17,74,8
+    RTEXT           "Размер:",IDC_STATIC,7,37,74,8
+    RTEXT           "Время создания:",IDC_STATIC,7,59,74,8
+    RTEXT           "Время модификации:",IDC_STATIC,3,69,78,8
+    RTEXT           "Время доступа:",IDC_STATIC,7,79,74,8
+    RTEXT           "Атрибуты:",IDC_STATIC,19,27,62,8,WS_TABSTOP
+    RTEXT           "Бит SUID:",IDC_STATIC,7,91,74,8
+    RTEXT           "Бит SGID:",IDC_STATIC,7,101,74,8
+    LTEXT           "",IDC_STATIC_FILE_NAME,88,7,96,8
+    LTEXT           "",IDC_STATIC_TYPE,88,17,96,8
+    LTEXT           "",IDC_STATIC_ATTR,88,27,96,8
+    LTEXT           "",IDC_STATIC_I_SIZE,88,37,96,8
+    LTEXT           "",IDC_STATIC_CTIME,88,59,96,8
+    LTEXT           "",IDC_STATIC_MTIME,88,69,96,8
+    LTEXT           "",IDC_STATIC_ATIME,88,79,96,8
+    LTEXT           "",IDC_STATIC_SUID,88,91,96,8
+    LTEXT           "",IDC_STATIC_SGID,88,101,96,8
+    RTEXT           "Число ссылок:",IDC_STATIC,7,47,74,8
+    LTEXT           "",IDC_STATIC_I_LINKS_COUNT,88,47,96,8
+END
+
+IDD_DIALOG_FILE_PROPS DIALOGEX 0, 0, 177, 186
+STYLE DS_MODALFRAME | DS_CENTER | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "Свойства"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,122,165,50,14
+    RTEXT           "Тип:",IDC_STATIC,7,43,80,8
+    RTEXT           "Размер:",IDC_STATIC,7,63,80,8
+    RTEXT           "Время создания:",IDC_STATIC,7,85,80,8
+    RTEXT           "Время модификации:",IDC_STATIC,7,95,80,8
+    RTEXT           "Время доступа:",IDC_STATIC,7,105,80,8
+    RTEXT           "Атрибуты:",IDC_STATIC,7,53,80,8,WS_TABSTOP
+    RTEXT           "Бит SUID:",IDC_STATIC,53,117,34,8
+    RTEXT           "Бит SGID:",IDC_STATIC,7,127,80,8
+    LTEXT           "",IDC_STATIC_FILE_NAME,39,11,137,8
+    LTEXT           "",IDC_STATIC_TYPE,90,43,80,8
+    LTEXT           "",IDC_STATIC_ATTR,90,53,80,8
+    LTEXT           "2 147 483 648 байт",IDC_STATIC_I_SIZE,90,63,80,8
+    LTEXT           "",IDC_STATIC_CTIME,90,85,80,8
+    LTEXT           "",IDC_STATIC_MTIME,90,95,80,8
+    LTEXT           "",IDC_STATIC_ATIME,90,105,80,8
+    LTEXT           "",IDC_STATIC_SUID,90,117,80,8
+    LTEXT           "",IDC_STATIC_SGID,90,127,80,8
+    RTEXT           "Число ссылок:",IDC_STATIC,7,73,80,8
+    LTEXT           "",IDC_STATIC_I_LINKS_COUNT,90,73,80,8
+    ICON            "",IDC_STATIC_ICON,9,6,20,20
+    LTEXT           "",IDC_STATIC_SPLITTER,7,28,165,8,0,WS_EX_STATICEDGE
+    RTEXT           "Extended:",IDC_STATIC_EXTENDED,13,139,74,8
+    LTEXT           "Static",IDC_STATIC_EXTENDED_TEXT,90,139,82,21
+END
+
+IDD_DIALOG_FILES_PROPS DIALOGEX 0, 0, 177, 186
+STYLE DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Свойства"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,122,165,50,14
+    ICON            IDI_FILES,IDC_STATIC,9,6,20,20
+    LTEXT           "a",IDC_STATIC_FILES,39,11,142,8,WS_TABSTOP
+    CTEXT           "",IDC_STATIC_SPLITTER,7,28,163,8,0,WS_EX_STATICEDGE
+    RTEXT           "Static",IDC_STATIC_MSG_TITLE1,10,43,54,8
+    LTEXT           "Static",IDC_STATIC_MSG_TITLE1_TEXT,68,43,102,8
+END
+
+IDD_DIALOG_WARNING DIALOG DISCARDABLE  0, 0, 197, 66
+STYLE DS_ABSALIGN | DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "ext2viewer"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,140,45,50,14
+    CTEXT           "Прямой доступ к одному или нескольким дискам запрещен администратором\nЕсли на этих дисках есть разделы ext2fs, они не будут видны.",
+                    IDC_STATIC_WARNIG_TEXT,10,8,180,36
+END
+
+IDD_DIALOG_COPYFILE DIALOG DISCARDABLE  0, 0, 186, 95
+STYLE DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Копирование"
+FONT 8, "MS Sans Serif"
+BEGIN
+    PUSHBUTTON      "Отмена",IDCANCEL,131,76,50,14
+    LTEXT           "Копирование файла",IDC_STATIC,5,5,69,8
+    LTEXT           "",IDC_STATIC_LINUXNAME,5,19,174,8
+    LTEXT           "в",IDC_STATIC,5,31,8,8
+    LTEXT           "",IDC_STATIC_WINDOWSNAME,5,43,176,8
+    CONTROL         "Progress1",IDC_PROGRESS1,"msctls_progress32",0x0,5,59,
+                    176,9
+    LTEXT           "Обработано  файлов:",IDC_STATIC,5,79,73,8
+    LTEXT           "0",IDC_STATIC_FILENUM,84,79,42,8
+END
+
+IDD_DIALOG_OVERWRITE DIALOG DISCARDABLE  0, 0, 284, 71
+STYLE DS_MODALFRAME | DS_SETFOREGROUND | DS_CENTER | WS_MINIMIZEBOX | 
+    WS_VISIBLE | WS_CAPTION
+CAPTION "Предупреждение"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "Вместо",ID_OVERWRITE,7,52,50,14
+    PUSHBUTTON      "Все",ID_OVERWRITE_ALL,59,52,50,14
+    PUSHBUTTON      "Пропустить",ID_SKIP,111,52,50,14
+    PUSHBUTTON      "Пропустить все",ID_SKIP_ALL,163,52,61,14
+    PUSHBUTTON      "Отмена",ID_CANCEL,227,53,50,14
+    CTEXT           "c:\\usr\\bin\\perl",IDC_STATIC_OVERWRITE_TEXT,7,19,270,
+                    8
+    CTEXT           "Файл уже существует:",IDC_STATIC,97,7,88,9
+END
+
+IDD_ABOUT DIALOG DISCARDABLE  0, 0, 172, 98
+STYLE DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_CAPTION
+CAPTION "О программе ext2viewer"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,115,77,50,14
+    ICON            IDI_INTERF,IDC_STATIC,7,9,20,20
+    LTEXT           "ext2viewer, версия 0.6 beta",IDC_STATIC,47,10,91,8
+    LTEXT           "Утилита просмотра ext2fs",IDC_STATIC,47,20,88,8
+    LTEXT           "Copyright (C) 2001 by holem,",IDC_STATIC,47,40,91,8
+    LTEXT           "E-mail: holem2k@hotmail.com",IDC_ABOUT_MAIL,47,50,95,8
+END
+
+IDD_DIALOG_SHOW DIALOG DISCARDABLE  0, 0, 202, 124
+STYLE DS_3DLOOK | WS_MINIMIZEBOX | WS_MAXIMIZEBOX | WS_VISIBLE | WS_CAPTION | 
+    WS_SYSMENU | WS_THICKFRAME
+CAPTION "Просмотр"
+MENU IDR_MENU_VIEW
+FONT 8, "MS Sans Serif"
+BEGIN
+END
+
+IDD_DIALOG_FIND DIALOG DISCARDABLE  0, 0, 200, 77
+STYLE DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_VISIBLE | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "Поиск"
+FONT 8, "MS Sans Serif"
+BEGIN
+    COMBOBOX        IDC_FIND_COMBO1,13,20,117,51,CBS_DROPDOWN | 
+                    CBS_AUTOHSCROLL | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    CONTROL         "Различать регистр",IDC_FIND_CHECK1,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,13,41,80,10
+    CONTROL         "Искать только слова целиком",IDC_FIND_CHECK2,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,13,56,119,10
+    DEFPUSHBUTTON   "OK",IDOK,143,5,50,14
+    PUSHBUTTON      "Отмена",IDCANCEL,143,23,50,14
+    LTEXT           "Поиск:",IDC_STATIC,13,10,24,8
+    GROUPBOX        "",IDC_STATIC,6,2,131,68
+END
+
+IDD_DIALOG_READFILE DIALOG DISCARDABLE  0, 0, 186, 58
+STYLE DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_VISIBLE | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "Чтение файла"
+FONT 8, "MS Sans Serif"
+BEGIN
+    PUSHBUTTON      "&Отмена",IDCANCEL,129,37,50,14
+    CONTROL         "Progress1",IDC_PROGRESS1,"msctls_progress32",0x0,8,20,
+                    169,9
+    LTEXT           "",IDC_STATIC_FILE,8,6,167,8
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDC_INTERF MENU DISCARDABLE 
+BEGIN
+    POPUP "Файл"
+    BEGIN
+        MENUITEM "&Обновить",                   IDM_REFRESH
+        MENUITEM "&Копировать",                 IDM_COPY
+        MENUITEM "&Просмотр",                   IDM_VIEW
+        MENUITEM "&Свойства",                   IDM_PROPS
+        MENUITEM SEPARATOR
+        MENUITEM "&Закрыть",                    IDM_EXIT
+    END
+    POPUP "Вид"
+    BEGIN
+        MENUITEM "&Крупные значки",             IDM_FB_ICON
+        MENUITEM "&Мелкие значки",              IDM_FB_SMALLICON
+        MENUITEM "Спис&ок ",                    IDM_FB_LIST
+        MENUITEM "&Таблица",                    IDM_FB_REPORT
+        MENUITEM SEPARATOR
+        MENUITEM "&Строка состояния",           IDM_STATUSBAR
+        MENUITEM SEPARATOR
+        POPUP "&Упорядочить"
+        BEGIN
+            MENUITEM "по &имени",                   IDM_SORT_BY_NAME
+            , CHECKED
+            MENUITEM "по &типу",                    IDM_SORT_BY_TYPE
+            MENUITEM "по ра&змеру",                 IDM_SORT_BY_SIZE
+            MENUITEM "по дат&е",                    IDM_SORT_BY_DATE
+            MENUITEM "&физически",                  IDM_SORT_BY_NONE
+        END
+        MENUITEM SEPARATOR
+        MENUITEM "Настройки",                   IDM_OPTIONS
+    END
+    POPUP "Помощь"
+    BEGIN
+        MENUITEM "&О программе",                IDM_ABOUT
+    END
+END
+
+IDR_POPUPS MENU DISCARDABLE 
+BEGIN
+    POPUP "Popup1"
+    BEGIN
+        MENUITEM "&Крупные значки",             IDM_FB_ICON
+        MENUITEM "&Мелкие значки",              IDM_FB_SMALLICON
+        MENUITEM "Спис&ок ",                    IDM_FB_LIST
+        MENUITEM "&Таблица",                    IDM_FB_REPORT
+        MENUITEM SEPARATOR
+        POPUP "&Упорядочить"
+        BEGIN
+            MENUITEM "по &имени",                   IDM_SORT_BY_NAME
+            , CHECKED
+            MENUITEM "по &типу",                    IDM_SORT_BY_TYPE
+            MENUITEM "по ра&змеру",                 IDM_SORT_BY_SIZE
+            MENUITEM "по дат&е",                    IDM_SORT_BY_DATE
+            MENUITEM "физически",                   IDM_SORT_BY_NONE
+        END
+    END
+    POPUP "Popup2"
+    BEGIN
+        MENUITEM "&Копировать",                 IDM_COPY
+        MENUITEM "&Просмотр",                   IDM_VIEW
+        MENUITEM "&Свойства",                   IDM_PROPS
+    END
+    POPUP "Popup3"
+    BEGIN
+        MENUITEM "&Копировать",                 IDM_VIEW_COPY
+        MENUITEM "В&ыделить все",               IDM_VIEW_SELECTALL
+        MENUITEM SEPARATOR
+        MENUITEM "&KOI8",                       IDM_VIEW_CODE_KOI8
+        MENUITEM "&CP-1251",                    IDM_VIEW_CODE_CP1251
+        MENUITEM SEPARATOR
+        MENUITEM "&Найти",                      IDM_VIEW_FIND
+        MENUITEM "&Повторить поиск",            IDM_VIEW_FINDMORE
+        MENUITEM SEPARATOR
+        MENUITEM "&Выход",                      IDM_VIEW_EXIT
+    END
+END
+
+IDR_MENU_VIEW MENU DISCARDABLE 
+BEGIN
+    POPUP "&Файл"
+    BEGIN
+        MENUITEM "В&ыход\tEsc",                 IDM_VIEW_EXIT
+    END
+    POPUP "&Правка"
+    BEGIN
+        MENUITEM "&Копировать\tCtrl+C",         IDM_VIEW_COPY
+        MENUITEM "В&ыделить все\tCtrl+A",       IDM_VIEW_SELECTALL
+        MENUITEM SEPARATOR
+        MENUITEM "&Найти\tCtrl+F",              IDM_VIEW_FIND
+        MENUITEM "Н&айти далее\tF3",            IDM_VIEW_FINDMORE
+    END
+    POPUP "&Вид"
+    BEGIN
+        POPUP "&Кодировка"
+        BEGIN
+            MENUITEM "KOI-8",                       IDM_VIEW_CODE_KOI8
+            MENUITEM "CP-1251",                     IDM_VIEW_CODE_CP1251
+        END
+        MENUITEM "Ш&рифт",                      IDM_VIEW_FONT
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDC_INTERF ACCELERATORS MOVEABLE PURE 
+BEGIN
+    "A",            IDM_VIEW_SELECTALL,     VIRTKEY, CONTROL, NOINVERT
+    "C",            IDM_VIEW_COPY,          VIRTKEY, CONTROL, NOINVERT
+    "F",            IDM_VIEW_FIND,          VIRTKEY, CONTROL, NOINVERT
+    VK_ESCAPE,      IDM_VIEW_EXIT,          VIRTKEY, NOINVERT
+    VK_F3,          IDM_VIEW_FINDMORE,      VIRTKEY, NOINVERT
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 0,6,0,0
+ PRODUCTVERSION 0,6,0,0
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x40004L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "041904b0"
+        BEGIN
+            VALUE "Comments", "\0"
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "\0"
+            VALUE "FileVersion", "0.6\0"
+            VALUE "InternalName", "\0"
+            VALUE "LegalCopyright", "Copyright © 2001 by holem\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "ext2viewer.exe\0"
+            VALUE "PrivateBuild", "\0"
+            VALUE "ProductName", "ext2viewer \0"
+            VALUE "ProductVersion", "0.6\0"
+            VALUE "SpecialBuild", "\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x419, 1200
+    END
+END
+
+#endif    // !_MAC
+
+#endif    // Russian resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

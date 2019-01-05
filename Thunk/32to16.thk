@@ -1,0 +1,13 @@
+enablemapdirect3216 = true;
+
+typedef unsigned short WORD;
+typedef unsigned long DWORD;
+typedef unsigned char BYTE, *LPBYTE;
+
+WORD Read(BYTE bDrive,  DWORD dwSector,  WORD wSectorNumber,
+			     LPBYTE lpBuffer, DWORD  cbBuffSize)
+{
+	lpBuffer = inout;
+}
+
+

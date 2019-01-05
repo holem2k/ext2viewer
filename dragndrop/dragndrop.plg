@@ -1,0 +1,72 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: dragndrop - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x419 /fo"Debug/dragndrop.res" /d "_DEBUG" "E:\EXT2VIEW\dragndrop\dragndrop.rc"" 
+Creating temporary file "D:\WINDOWS\TEMP\RSP50F3.TMP" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /FR"Debug/" /Fp"Debug/dragndrop.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\EXT2VIEW\dragndrop\debug.cpp"
+"E:\EXT2VIEW\dragndrop\dragndrop.cpp"
+"E:\EXT2VIEW\dragndrop\drgndrp.cpp"
+]
+Creating command line "cl.exe @D:\WINDOWS\TEMP\RSP50F3.TMP" 
+Creating temporary file "D:\WINDOWS\TEMP\RSP50F4.TMP" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /FR"Debug/" /Fp"Debug/dragndrop.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\EXT2VIEW\dragndrop\StdAfx.cpp"
+]
+Creating command line "cl.exe @D:\WINDOWS\TEMP\RSP50F4.TMP" 
+Creating temporary file "D:\WINDOWS\TEMP\RSP50F5.TMP" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/dragndrop.pdb" /debug /machine:I386 /out:"Debug/dragndrop.exe" /pdbtype:sept 
+.\Debug\debug.obj
+.\Debug\dragndrop.obj
+.\Debug\drgndrp.obj
+.\Debug\StdAfx.obj
+.\Debug\dragndrop.res
+]
+Creating command line "link.exe @D:\WINDOWS\TEMP\RSP50F5.TMP"
+<h3>Output Window</h3>
+Compiling resources...
+Spawn Time 0:00.4
+Compiling...
+StdAfx.cpp
+
+NOTE: WINVER has been defined as 0x0500 or greater which enables
+Windows NT 5.0 and Windows 98 features. When these headers were released,
+Windows NT 5.0 beta 1 and Windows 98 beta 2.1 were the current versions.
+
+For this release when WINVER is defined as 0x0500 or greater, you can only
+build beta or test applications.  To build a retail application,
+set WINVER to 0x0400 or visit http://www.microsoft.com/msdn/sdk
+to see if retail Windows NT 5.0 or Windows 98 headers are available.
+
+See the SDK release notes for more information.
+
+Spawn Time 0:03.6
+Compiling...
+debug.cpp
+dragndrop.cpp
+drgndrp.cpp
+Generating Code...
+Spawn Time 0:07.0
+Linking...
+Spawn Time 0:08.2
+Creating command line "bscmake.exe /nologo /o"Debug/dragndrop.bsc"  .\Debug\StdAfx.sbr .\Debug\debug.sbr .\Debug\dragndrop.sbr .\Debug\drgndrp.sbr"
+Creating browse info file...
+Spawn Time 0:01.7
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+dragndrop.exe - 0 error(s), 0 warning(s)
+Build Time 0:26.8
+</pre>
+</body>
+</html>

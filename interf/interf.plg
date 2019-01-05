@@ -1,0 +1,269 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: interf - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\HOLEM~1.HOL\LOCALS~1\Temp\RSP2.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /FR"Debug/" /Fp"Debug/interf.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\EXT2VIEW\interf\aboutdlg.cpp"
+"E:\EXT2VIEW\interf\bcache.cpp"
+"E:\EXT2VIEW\interf\copy.cpp"
+"E:\EXT2VIEW\interf\copycore.cpp"
+"E:\EXT2VIEW\interf\copydlg.cpp"
+"E:\EXT2VIEW\interf\dev.cpp"
+"E:\EXT2VIEW\interf\disk.cpp"
+"E:\EXT2VIEW\interf\diskbar.cpp"
+"E:\EXT2VIEW\interf\eo_comp.cpp"
+"E:\EXT2VIEW\interf\eo_folder.cpp"
+"E:\EXT2VIEW\interf\eo_folder_core.cpp"
+"E:\EXT2VIEW\interf\exp_core.cpp"
+"E:\EXT2VIEW\interf\explorer.cpp"
+"E:\EXT2VIEW\interf\ext2_core.cpp"
+"E:\EXT2VIEW\interf\ext2_fs.cpp"
+"E:\EXT2VIEW\interf\file_propdlg.cpp"
+"E:\EXT2VIEW\interf\filebar.cpp"
+"E:\EXT2VIEW\interf\files_propdlg.cpp"
+"E:\EXT2VIEW\interf\finddlg.cpp"
+"E:\EXT2VIEW\interf\icons.cpp"
+"E:\EXT2VIEW\interf\interf.cpp"
+"E:\EXT2VIEW\interf\menu.cpp"
+"E:\EXT2VIEW\interf\mi_propdlg.cpp"
+"E:\EXT2VIEW\interf\options.cpp"
+"E:\EXT2VIEW\interf\overdlg.cpp"
+"E:\EXT2VIEW\interf\props.cpp"
+"E:\EXT2VIEW\interf\qsort.cpp"
+"E:\EXT2VIEW\interf\readdlg.cpp"
+"E:\EXT2VIEW\interf\registry.cpp"
+"E:\EXT2VIEW\interf\res_cache.cpp"
+"E:\EXT2VIEW\interf\showdlg.cpp"
+"E:\EXT2VIEW\interf\splitter.cpp"
+"E:\EXT2VIEW\interf\stat.cpp"
+"E:\EXT2VIEW\interf\text.cpp"
+"E:\EXT2VIEW\interf\trace.cpp"
+"E:\EXT2VIEW\interf\view.cpp"
+"E:\EXT2VIEW\interf\warn_dlg.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\HOLEM~1.HOL\LOCALS~1\Temp\RSP2.tmp" 
+Creating temporary file "C:\DOCUME~1\HOLEM~1.HOL\LOCALS~1\Temp\RSP3.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /FR"Debug/" /Fp"Debug/interf.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\EXT2VIEW\interf\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\HOLEM~1.HOL\LOCALS~1\Temp\RSP3.tmp" 
+Creating temporary file "C:\DOCUME~1\HOLEM~1.HOL\LOCALS~1\Temp\RSP4.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib comctl32.lib ole32.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/interf.pdb" /debug /machine:I386 /out:"Debug/interf.exe" /pdbtype:sept 
+.\Debug\aboutdlg.obj
+.\Debug\bcache.obj
+.\Debug\copy.obj
+.\Debug\copycore.obj
+.\Debug\copydlg.obj
+.\Debug\dev.obj
+.\Debug\disk.obj
+.\Debug\diskbar.obj
+.\Debug\eo_comp.obj
+.\Debug\eo_folder.obj
+.\Debug\eo_folder_core.obj
+.\Debug\exp_core.obj
+.\Debug\explorer.obj
+.\Debug\ext2_core.obj
+.\Debug\ext2_fs.obj
+.\Debug\file_propdlg.obj
+.\Debug\filebar.obj
+.\Debug\files_propdlg.obj
+.\Debug\finddlg.obj
+.\Debug\icons.obj
+.\Debug\interf.obj
+.\Debug\menu.obj
+.\Debug\mi_propdlg.obj
+.\Debug\options.obj
+.\Debug\overdlg.obj
+.\Debug\props.obj
+.\Debug\qsort.obj
+.\Debug\readdlg.obj
+.\Debug\registry.obj
+.\Debug\res_cache.obj
+.\Debug\showdlg.obj
+.\Debug\splitter.obj
+.\Debug\stat.obj
+.\Debug\StdAfx.obj
+.\Debug\text.obj
+.\Debug\trace.obj
+.\Debug\view.obj
+.\Debug\warn_dlg.obj
+.\Debug\interf.res
+]
+Creating command line "link.exe @C:\DOCUME~1\HOLEM~1.HOL\LOCALS~1\Temp\RSP4.tmp"
+<h3>Output Window</h3>
+Compiling...
+StdAfx.cpp
+Compiling...
+aboutdlg.cpp
+Generating Code...
+Compiling...
+bcache.cpp
+Generating Code...
+Compiling...
+copy.cpp
+Generating Code...
+Compiling...
+copycore.cpp
+Generating Code...
+Compiling...
+copydlg.cpp
+Generating Code...
+Compiling...
+dev.cpp
+E:\EXT2VIEW\interf\dev.cpp(96) : warning C4244: 'argument' : conversion from 'unsigned long' to 'unsigned short', possible loss of data
+E:\EXT2VIEW\interf\dev.cpp(116) : warning C4244: 'argument' : conversion from 'unsigned long' to 'unsigned short', possible loss of data
+Generating Code...
+Compiling...
+disk.cpp
+Generating Code...
+Compiling...
+diskbar.cpp
+Generating Code...
+Compiling...
+eo_comp.cpp
+Generating Code...
+Compiling...
+eo_folder.cpp
+Generating Code...
+Compiling...
+eo_folder_core.cpp
+Generating Code...
+Compiling...
+exp_core.cpp
+Generating Code...
+Compiling...
+explorer.cpp
+Generating Code...
+Compiling...
+ext2_core.cpp
+Generating Code...
+Compiling...
+ext2_fs.cpp
+Generating Code...
+Compiling...
+file_propdlg.cpp
+Generating Code...
+Compiling...
+filebar.cpp
+Generating Code...
+Compiling...
+files_propdlg.cpp
+Generating Code...
+Compiling...
+finddlg.cpp
+Generating Code...
+Compiling...
+icons.cpp
+Generating Code...
+Compiling...
+interf.cpp
+Generating Code...
+Compiling...
+menu.cpp
+Generating Code...
+Compiling...
+mi_propdlg.cpp
+Generating Code...
+Compiling...
+options.cpp
+Generating Code...
+Compiling...
+overdlg.cpp
+Generating Code...
+Compiling...
+props.cpp
+Generating Code...
+Compiling...
+qsort.cpp
+Generating Code...
+Compiling...
+readdlg.cpp
+Generating Code...
+Compiling...
+registry.cpp
+Generating Code...
+Compiling...
+res_cache.cpp
+Generating Code...
+Compiling...
+showdlg.cpp
+Generating Code...
+Compiling...
+splitter.cpp
+Generating Code...
+Compiling...
+stat.cpp
+Generating Code...
+Compiling...
+text.cpp
+Generating Code...
+Compiling...
+trace.cpp
+Generating Code...
+Compiling...
+view.cpp
+Generating Code...
+Compiling...
+warn_dlg.cpp
+Generating Code...
+Linking...
+Creating temporary file "C:\DOCUME~1\HOLEM~1.HOL\LOCALS~1\Temp\RSP6.tmp" with contents
+[
+/nologo /o"Debug/interf.bsc" 
+.\Debug\StdAfx.sbr
+.\Debug\aboutdlg.sbr
+.\Debug\bcache.sbr
+.\Debug\copy.sbr
+.\Debug\copycore.sbr
+.\Debug\copydlg.sbr
+.\Debug\dev.sbr
+.\Debug\disk.sbr
+.\Debug\diskbar.sbr
+.\Debug\eo_comp.sbr
+.\Debug\eo_folder.sbr
+.\Debug\eo_folder_core.sbr
+.\Debug\exp_core.sbr
+.\Debug\explorer.sbr
+.\Debug\ext2_core.sbr
+.\Debug\ext2_fs.sbr
+.\Debug\file_propdlg.sbr
+.\Debug\filebar.sbr
+.\Debug\files_propdlg.sbr
+.\Debug\finddlg.sbr
+.\Debug\icons.sbr
+.\Debug\interf.sbr
+.\Debug\menu.sbr
+.\Debug\mi_propdlg.sbr
+.\Debug\options.sbr
+.\Debug\overdlg.sbr
+.\Debug\props.sbr
+.\Debug\qsort.sbr
+.\Debug\readdlg.sbr
+.\Debug\registry.sbr
+.\Debug\res_cache.sbr
+.\Debug\showdlg.sbr
+.\Debug\splitter.sbr
+.\Debug\stat.sbr
+.\Debug\text.sbr
+.\Debug\trace.sbr
+.\Debug\view.sbr
+.\Debug\warn_dlg.sbr]
+Creating command line "bscmake.exe @C:\DOCUME~1\HOLEM~1.HOL\LOCALS~1\Temp\RSP6.tmp"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+interf.exe - 0 error(s), 2 warning(s)
+</pre>
+</body>
+</html>

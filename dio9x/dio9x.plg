@@ -1,0 +1,58 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: dio9x - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "D:\WINDOWS\TEMP\RSP50D4.TMP" with contents
+[
+/nologo /MT /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "DIO9X_EXPORTS" /Fp"Release/dio9x.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"E:\EXT2VIEW\dio9x\dio9x.cpp"
+]
+Creating command line "cl.exe @D:\WINDOWS\TEMP\RSP50D4.TMP" 
+Creating temporary file "D:\WINDOWS\TEMP\RSP50D5.TMP" with contents
+[
+/nologo /MT /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "DIO9X_EXPORTS" /Fp"Release/dio9x.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"E:\EXT2VIEW\dio9x\StdAfx.cpp"
+]
+Creating command line "cl.exe @D:\WINDOWS\TEMP\RSP50D5.TMP" 
+Creating temporary file "D:\WINDOWS\TEMP\RSP50D6.TMP" with contents
+[
+comdlg32.lib advapi32.lib shell32.lib kernel32.lib thunk32.lib thk32.obj /nologo /dll /incremental:no /pdb:"Release/dio9x.pdb" /machine:I386 /def:"dio9x.def" /out:"Release/dio9x.dll" /implib:"Release/dio9x.lib" 
+.\Release\dio9x.obj
+.\Release\StdAfx.obj
+]
+Creating command line "link.exe @D:\WINDOWS\TEMP\RSP50D6.TMP"
+<h3>Output Window</h3>
+Compiling...
+StdAfx.cpp
+
+NOTE: WINVER has been defined as 0x0500 or greater which enables
+Windows NT 5.0 and Windows 98 features. When these headers were released,
+Windows NT 5.0 beta 1 and Windows 98 beta 2.1 were the current versions.
+
+For this release when WINVER is defined as 0x0500 or greater, you can only
+build beta or test applications.  To build a retail application,
+set WINVER to 0x0400 or visit http://www.microsoft.com/msdn/sdk
+to see if retail Windows NT 5.0 or Windows 98 headers are available.
+
+See the SDK release notes for more information.
+
+Spawn Time 0:01.3
+Compiling...
+dio9x.cpp
+Spawn Time 0:00.1
+Linking...
+   Creating library Release/dio9x.lib and object Release/dio9x.exp
+Spawn Time 0:00.4
+
+
+
+<h3>Results</h3>
+dio9x.dll - 0 error(s), 0 warning(s)
+Build Time 0:02.2
+</pre>
+</body>
+</html>

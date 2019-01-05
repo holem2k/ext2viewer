@@ -1,0 +1,34 @@
+ext2viewer (codename 'interf':) development history.
+-----------------------------
+history:
+0.2 - initial release (20.06.2001)
+0.3 - in process...
+0.4 - file and directory copying (26.07.2001)
+0.5 - in process...
+0.6 - finished at Sep, 2001
+0.8 - will be started at Jan, 2002
+-----------------------------
+TO DO
+0.4
+* incremental name resolving cache +
+* status bar  (LAST DATE 1.07.2001) +
+* directory copying (LAST DATE 5.07.2001) +
+* drag'n'drop  (LAST DATE 10.07.2001)     -
+* setting save  (LAST DATE 10.07.2001)    +-
+
+0.6 
+* file viewer (LAST DATE - UNDEFINED)
+* directory caching +
+* open dirs by click in filebar +
+* ...
+
+0.8 (LAST DATE 1.03.2002)
+* different code page support (in viewer and in filesystem)
+* drag'n'drop  (based on stream like in Windows Explorer) 
+* columns settings save
+* tooltips
+* popup menu on tree
+* ext3 support
+
+
+
